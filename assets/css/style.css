@@ -156,8 +156,6 @@ h1, h2{
 #center_about{
     width:33%;
     margin:0 auto; /*this will make the dive on the center of the spaces*/
-     /*will be added background to vizualization*/
-     background-color:green;
 }
 
 .left_about_heading{
@@ -192,4 +190,27 @@ hr {
     text-align: right;
 }
 
+#ethos_welcome{
+    text-align: center;
+    font-size: 280%;
+    margin: 20px 0;
+}
 
+/*for the circle image on Ethos*/
+
+#circle_container{
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style:solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin:0 auto; /*this will make the dive on the center of the spaces*/
+
+}
+#circle_inner_bg{
+    background: url("../images/ethos-center-image.jpg") no-repeat center center;
+    height:100%;
+    border-radius: 50%;
+}
