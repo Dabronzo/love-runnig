@@ -142,8 +142,6 @@ h1, h2{
     padding-top:30px;
     width:33%;
     float:left;
-    /*will be added background to vizualization*/
-    background-color: blue;
 
 }
 
@@ -151,8 +149,6 @@ h1, h2{
     padding-top:30px;
     width:33%;
     float:right;
-     /*will be added background to vizualization*/
-     background-color:red;
 
 
 }
@@ -164,5 +160,36 @@ h1, h2{
      background-color:green;
 }
 
+.left_about_heading{
+    width:60%;
+    float:right;
+    line-height: 20px;
+    clear:both; /*make sure will align verticaly*/
+    margin-bottom: 50px;
+}
+
+.right_about_heading{
+    width:60%;
+    float:left;
+    line-height: 20px;
+    clear:both; /*make sure will align verticaly*/
+    margin-bottom: 50px;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width:100%;
+    margin:5px 0;
+
+}
+
+.right_about_heading h2{
+    text-align: right;
+
+}
+
+.right_about_heading p {
+    text-align: right;
+}
 
 
