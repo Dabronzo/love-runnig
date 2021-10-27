@@ -50,10 +50,12 @@ h1, h2{
 
 #menu a {
     text-decoration: none;
+    color:inherit;
 }
 
 #menu a:hover{
     border-bottom:1px solid #3a3a3a;
+
 
 
 }
@@ -69,6 +71,8 @@ h1, h2{
     height:600px;
     width: 100%;
     overflow: hidden;
+
+    position: relative;
 
    
 
@@ -99,4 +103,30 @@ h1, h2{
     }
 }
 
+/* cover of the hero image */
+
+#cover_text, #cover_text h2{
+    color:#fff;
+}
+
+#cover_text{
+    font-size:130%;
+    font-family: Oswald, sans-serif;
+    text-transform:uppercase;
+    letter-spacing: 4px;
+
+    width:300px;
+    height:200px;
+
+    
+    padding-top:40px;
+    padding-left:10px;
+
+    background-color: rgba(241, 109, 107, .7);
+
+    bottom:30px;
+    right:150px;
+
+    position: absolute;
+}
 
