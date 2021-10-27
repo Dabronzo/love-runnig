@@ -62,3 +62,41 @@ h1, h2{
     border-bottom:1px solid #3a3a3a;
 
 }
+
+/*Hero image styling*/
+
+#hero_outer{
+    height:600px;
+    width: 100%;
+    overflow: hidden;
+
+   
+
+}
+
+
+#hero_image{
+    height:600px;
+    width: 100%;
+    background: url('../images/hero-image.webp') no-repeat center center;
+
+     /*implementing the animation on this element*/
+     animation-name:hero_zoom;
+     animation-duration: 5s;
+     animation-fill-mode: forwards;
+
+}
+
+/*Setting the animation for the hero image*/
+/*this will create an effect of zoon*/
+
+@keyframes hero_zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+
