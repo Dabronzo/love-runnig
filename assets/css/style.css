@@ -286,6 +286,8 @@ footer ul i{
 
 /* Media queries*/
 
+/*For tablets and bigger screens*/
+
 /*Changing the leyout of the website if the screen width is lower of 1200 px*/
 @media screen and (max-width: 1200px) {
     #ethos_club{
@@ -320,3 +322,18 @@ footer ul i{
     }
     
 }
+
+/*For smaller devices with max 950px*/
+
+@media screen and (max-width: 950px) {
+
+    #menu{
+        clear:left;
+        float:left;
+        margin-left:30px;
+        margin-bottom:20px;
+        line-height: 25px;
+    }
+    
+}
+
