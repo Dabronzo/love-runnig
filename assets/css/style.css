@@ -320,6 +320,16 @@ footer ul i{
     #ethos_club hr{
         display: none;
     }
+
+    /*making the times of meet up stack in vertical when smaller screens*/
+
+    #times > div{
+        width:100%;
+        clear:both;
+        height:150px;
+        padding:0;
+
+    }
     
 }
 
@@ -334,6 +344,31 @@ footer ul i{
         margin-bottom:20px;
         line-height: 25px;
     }
+
+
+    #ethos_club{
+        width:90%;
+        height:1200px;
+        margin:0 auto;
+
+    }
     
+    .left_about_heading, .right_about_heading{
+        width: inherit;
+    }
+
+    .left_about_heading h2, .right_about_heading h2{
+        width:100%;
+        text-align: center;
+    }
+
+    .left_about_heading p, .right_about_heading p{
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    #cover_text {
+        left: 0;
+    }
 }
 
