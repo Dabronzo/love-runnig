@@ -370,5 +370,18 @@ footer ul i{
     #cover_text {
         left: 0;
     }
+
+    #photos_gallery{
+        column-count:3;
+    }
+}
+
+/* styling for the gallery on small 800px sizes*/
+
+@media screen and (max-width:800px) {
+    #photos_gallery{
+        column-count: 2;
+    }
+    
 }
 
