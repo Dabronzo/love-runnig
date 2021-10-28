@@ -266,5 +266,20 @@ footer ul i{
     margin:1%;
     padding:5%;
     color:#3a3a3a;
+
+}
+
+/*Styling for the photo gallery*/
+
+#photos_gallery{
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+
+}
+
+#photos_gallery img{
+    width:100%;
     
 }
